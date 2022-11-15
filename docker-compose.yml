@@ -1,0 +1,21 @@
+version: "3"
+services:
+  web:
+    restart: always
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app/:/home/app/
+  postgres:
+    restart: always
+    image: postgres:10
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_DB=students
+    volumes:
+      - ./postgres-data/postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
