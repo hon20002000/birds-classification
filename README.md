@@ -25,6 +25,18 @@ The site will be available to you at `localhost:5000` or `your IP:5000`.
 
 As long as your computer builds this image and runs the container, You can browse the site by accessing the site from your mobile phone or other device(under the same wifi), enjoy it!
 
+Here is a demo:
+![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/index.png "index")
+
+After prediction, you can click the More Info button to search for more information about this bird.
+![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/info.png "info")
+
+<b>Cautions!</b>
+This model only has good accuracy in predicting bird photos, since it has only 450 categories, if you upload out of categories photos, it will give funny results, it will find the most similar one out of 450 species of birds ! Although it is possible to additionally train a Yes/No binary model to judge whether it is a bird/non-bird photos, the results are more interesting now, so I leave it. Here are some interesting results.
+
+![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/result1.png "result1")
+![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/result2.png "result2")
+
 ## How it works
 
 I used the python:3.8 image for construction, and then installed the necessary libraries through Dockerfile, such as flask, torch, psycopg2 and other necessary libraries. The role of flask is to allow users to access index.html, and users can access index.html and Upload a picture, which must be a bird picture, and then the model predicts the name of the bird in the backend and displays the result on the page. The role of postgres here is to save the picture path and the prediction to the database.
