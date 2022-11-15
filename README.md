@@ -1,10 +1,10 @@
 # birds-classification
 based on kaggle BIRDS 450 SPECIES- IMAGE CLASSIFICATION
 
-GRANDALA
+<b>GRANDALA</b>
 ![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/GRANDALA.png "GRANDALA")
 
-ABBOTTS%20BABBLER
+<b>ABBOTTS%20BABBLER</b>
 ![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/ABBOTTS%20BABBLER.png "ABBOTTS%20BABBLER")
 
 # docker-flask-postgres
