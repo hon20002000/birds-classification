@@ -13,13 +13,12 @@ This is a project about docker-flask-postgres-image classification. To run this 
 
 ## Running
 
-The project is about 110 MB, I upload it at google drive, you can download it at this link [https://drive.google.com/drive/folders/1-oq7-q45IX-ThQvTvYjrUjd4levQ3r5b?usp=sharing], or 
+The project is about 110 MB, I upload the whole project on google drive, you can download it at this link [https://drive.google.com/drive/folders/1-oq7-q45IX-ThQvTvYjrUjd4levQ3r5b?usp=sharing]
 
-
-
-
-And then run this command.
-
+After download it, and then run this command.
+```
+cd project-foled-path
+```
 ```
 docker-compose up --build -d   # Run the container.
 ```
