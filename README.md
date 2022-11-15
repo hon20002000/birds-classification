@@ -1,6 +1,8 @@
 # birds-classification
 based on kaggle BIRDS 450 SPECIES- IMAGE CLASSIFICATION
 
+![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/index.png)
+
 # docker-flask-postgres
 
 This is a project about docker-flask-postgres-image classification. To run this on your computer you must first install [docker](https://docs.docker.com/engine/installation/).
