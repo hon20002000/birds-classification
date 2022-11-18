@@ -56,14 +56,32 @@ This application is to determine the category of bird image uploaded by users. B
 
 ## Loss & Metrics
 
-Classification Loss - nn.CrossEntropyLoss()
-Classification metric - f1_score
+Classification Loss - nn.CrossEntropyLoss()<br>
+Classification metric - f1_score<br>
 <br>
 <b>Teacher model: Convnext-xlarge-224-22k</b>
 ![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/teacher_model.png "Convnext-xlarge")
 
 <b>Student model: Convnext-tiny-224</b>
 ![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/tiny_model_kd.png "Convnext-tiny")
+
+<b>Result of training Teacher model</b>
+
+- The model has no obvious overfitting, but it took long time(18 hours) to train for 5 rounds, so the 5th round(epoch=5) is used as the best model
+- The f1 score of validating set is about 0.933
+- It seems that the xlarge model could get higher f1 score if it trains more epochs.
+<br>
+
+<b>Result of training Student model</b> 
+
+- Here we can find that the student model is still making progress. Because of the time, there are only 5 rounds of training here, and the results of the 5th round are the best. the val_f1_score = 0.925
+
+<b>Summary</b>
+
+- teacher model: val_f1_score = 0.933, test_f1_score = 0.942
+- student model: val_f1_score = 0.925, test_f1_score = 0.931
+- the size of xlarge model is 1,363MB, and the size of tiny model is 110MB, Effectively reduces the size by 92%
+- compare with teacher model, student model is almost the same performance! 
 
 ## Dockerfile
 
