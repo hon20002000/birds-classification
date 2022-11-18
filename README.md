@@ -58,6 +58,11 @@ This application is to determine the category of bird image uploaded by users. B
 
 Classification Loss - nn.CrossEntropyLoss()
 Classification metric - f1_score
+<b>Teacher model: Convnext-xlarge-224-22k</b>
+![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/teacher_model.png "Convnext-xlarge")
+
+<b>Student model: Convnext-tiny-224</b>
+![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/tiny_model_kd.png "Convnext-tiny")
 
 ## Dockerfile
 
