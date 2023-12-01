@@ -11,6 +11,8 @@ based on kaggle BIRDS 450 SPECIES- IMAGE CLASSIFICATION
 
 This is a project about docker-flask-postgres-image classification. To run this on your computer you must first install [docker](https://docs.docker.com/engine/installation/).
 
+If you are a windows user, download and install docker desktop, open it on windows, register and log in to docker. The following steps will work correctly.
+
 ## Running
 
 The project is about 110 MB, I upload the whole project on google drive, you can download it at this link [https://drive.google.com/drive/folders/1-oq7-q45IX-ThQvTvYjrUjd4levQ3r5b?usp=sharing]
