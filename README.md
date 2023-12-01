@@ -17,7 +17,7 @@ The project is about 110 MB, I upload the whole project on google drive, you can
 
 After download it and unzip, and then run this command.
 ```
-cd project-foled-path
+cd project-folder-path
 ```
 ```
 docker-compose up --build -d   # Run the container.
