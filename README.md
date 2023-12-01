@@ -34,7 +34,7 @@ After prediction, you can click the More Info button to search for more informat
 ![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/info.png "info")
 
 <b>Cautions!</b>
-This model only has good accuracy in predicting bird photos, since it has only 450 categories, if you upload out of categories photos, it will give funny results, it will find the most similar one out of 450 species of birds ! Although it is possible to additionally train a Yes/No binary model to judge whether it is a bird/non-bird photos, the results are more interesting now, so I leave it. Here are some interesting results.
+This model only has good accuracy in predicting bird photos, since it has only 450 categories, if you upload out of categories photos, it will give funny results, it will find the most similar one out of 450 species of birds ! Although there are ways to solve this problem, the results are more interesting now, so I leave it. Here are some interesting results.
 
 ![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/result1.png "result1")
 ![alt text](https://github.com/hon20002000/birds-classification/blob/main/demo_images/result2.png "result2")
